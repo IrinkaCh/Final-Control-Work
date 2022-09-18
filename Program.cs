@@ -12,5 +12,14 @@ void FormingAnArrayFromStrings(string[] arrayIn, int size)
             count++;
         }
     }
-
+    string[] arrayOut = new string[count];
+    count = 0;
+    for (i = 0; i < arrayIn.Length; i++)
+    {
+        if (arrayIn[i].Length <= size)
+        {
+            arrayOut[count] = arrayIn[i];
+            count++;
+        }
+    }
 }
