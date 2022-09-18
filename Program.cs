@@ -22,4 +22,20 @@ void FormingAnArrayFromStrings(string[] arrayIn, int size)
             count++;
         }
     }
+    if (count != 0)
+    {
+        Console.Write("[");
+        for (i = 0; i < arrayOut.Length; i++)
+        {
+            if (arrayOut.Length - 1 > i)
+            { Console.Write($"{arrayOut[i]}\", \""); }
+            else
+            { Console.WriteLine($"{arrayOut[i]}\"]"); }
+        }
+        Console.WriteLine();
+    }
+    else
+    {
+        Console.WriteLine("[]");
+    }
 }
