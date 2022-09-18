@@ -3,5 +3,14 @@ int size = 3;
 
 void FormingAnArrayFromStrings(string[] arrayIn, int size)
 {
-    
+    int count = 0;
+    int i = 0;
+    for (i = 0; i < arrayIn.Length; i++)
+    {
+        if (arrayIn[i].Length <= size)
+        {
+            count++;
+        }
+    }
+
 }
