@@ -39,3 +39,4 @@ void FormingAnArrayFromStrings(string[] arrayIn, int size)
         Console.WriteLine("[]");
     }
 }
+FormingAnArrayFromStrings(array, size);
