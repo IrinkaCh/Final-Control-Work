@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] array = { "butter1", "-345678", "cat", "3,14", "Irina", "746", "^-(" };
+int size = 3;
+
+void FormingAnArrayFromStrings(string[] arrayIn, int size)
+{
+    
+}
